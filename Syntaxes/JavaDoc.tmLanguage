@@ -4,10 +4,6 @@
 <dict>
 	<key>fileTypes</key>
 	<array/>
-	<key>foldingStartMarker</key>
-	<string>/\*\*</string>
-	<key>foldingStopMarker</key>
-	<string>\*\*/</string>
 	<key>name</key>
 	<string>JavaDoc</string>
 	<key>patterns</key>
