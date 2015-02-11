@@ -406,6 +406,14 @@
 					<string>#inline-formatting</string>
 				</dict>
 				<dict>
+					<key>comment</key>
+					<string>This prevents &lt; characters in commented source from starting
+								a tag that will not end. List of allowed tags taken from
+								java checkstyle.</string>
+					<key>match</key>
+					<string>&lt;(?!(a|abbr|acronym|address|area|b|bdo|big|blockquote|br|caption|cite|code|colgroup|dd|del|div|dfn|dl|dt|em|fieldset|font|h1toh6|hr|i|img|ins|kbd|li|ol|p|pre|q|samp|small|span|strong|sub|sup|table|tbody|td|tfoot|th|thread|tr|tt|u|ul)\b[^&gt;]*&gt;)</string>
+				</dict>
+				<dict>
 					<key>include</key>
 					<string>text.html.basic</string>
 				</dict>
